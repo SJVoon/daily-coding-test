@@ -1,11 +1,6 @@
 package main.java.topinterviewquestions.mediumq2;
 
 /**
- * Runtime: 3 ms, faster than 73.94% of Java online submissions for Add Two Numbers.
- * Memory Usage: 47.7 MB, less than 28.28% of Java online submissions for Add Two Numbers.
- */
-
-/**
  * Question
  *
  * You are given two non-empty linked lists representing two non-negative integers.
@@ -16,9 +11,12 @@ package main.java.topinterviewquestions.mediumq2;
  * Input: l1 = [2,4,3], l2 = [5,6,4]
  * Output: [7,0,8]
  * Explanation: 342 + 465 = 807.
+ *
+ * Runtime: 3 ms, faster than 73.94% of Java online submissions for Add Two Numbers.
+ * Memory Usage: 47.7 MB, less than 28.28% of Java online submissions for Add Two Numbers.
  */
 
-class Solution {
+public class Solution {
     public ListNode addTwoNumbers(ListNode list1, ListNode list2) {
         //initialize a node to use its next node to return
         ListNode returnNode = new ListNode(0);
