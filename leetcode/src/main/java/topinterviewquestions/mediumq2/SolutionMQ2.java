@@ -16,7 +16,7 @@ package main.java.topinterviewquestions.mediumq2;
  * Memory Usage: 47.7 MB, less than 28.28% of Java online submissions for Add Two Numbers.
  */
 
-public class Solution {
+public class SolutionMQ2 {
     public ListNode addTwoNumbers(ListNode list1, ListNode list2) {
         //initialize a node to use its next node to return
         ListNode returnNode = new ListNode(0);
